@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Privacy Policy | Flight</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+
+
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+            <img src="{% static 'img/privacy-policy.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <p>
+                Flight Planners Limited (“<b></b>”) understands its valuable customer's concerns for privacy and undertakes several measures of protecting and maintaining theirpersonal information that is being shared with us.
+            </p>
+            <p>
+                We retain your information for as long as necessary to provide our services or comply with legal obligations. 
+                When your data is no longer required, we securely delete it.
+            <p>
+                Our services are not intended for individuals under the age of 18.
+                 We do not knowingly collect personal information from children. 
+                 If we learn we have collected data from a minor, we will delete it promptly.
+                
+                 Our website may contain links to third-party websites. 
+                 We are not responsible for the privacy practices or content of these websites.
+                  Please review their privacy policies before providing them with your information.
+
+                  We may update this Privacy Policy periodically. 
+                  Changes will be posted on this page with the "Last Updated" date. We encourage you to review this Privacy Policy regularly.
+            
+            </p>
+        </div>
+    </section>
+{% endblock%}
